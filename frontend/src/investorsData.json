@@ -1,0 +1,316 @@
+{
+    "investors": [
+        {
+            "id": 1,
+            "name": "Sequoia Capital",
+            "type": "Venture Capital",
+            "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=sequoia&backgroundColor=1e3a8a",
+            "location": "Menlo Park, CA",
+            "status": "Active",
+            "investmentRange": {
+                "min": "$1M",
+                "max": "$25M"
+            },
+            "focusIndustries": [
+                "FinTech",
+                "AI/ML",
+                "SaaS"
+            ],
+            "investmentStages": [
+                "Seed",
+                "Series A",
+                "Series B"
+            ],
+            "portfolioCompanies": 87,
+            "activeDeals": 12,
+            "investmentThesis": "We partner with bold founders building legendary companies across technology sectors. Our focus is on companies that can scale globally and transform industries.",
+            "dealSize": "large"
+        },
+        {
+            "id": 2,
+            "name": "Andreessen Horowitz",
+            "type": "Venture Capital",
+            "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=a16z&backgroundColor=000000",
+            "location": "Menlo Park, CA",
+            "status": "Active",
+            "investmentRange": {
+                "min": "$500K",
+                "max": "$50M"
+            },
+            "focusIndustries": [
+                "BioTech",
+                "FinTech",
+                "AI/ML"
+            ],
+            "investmentStages": [
+                "Seed",
+                "Series A",
+                "Series B",
+                "Growth"
+            ],
+            "portfolioCompanies": 124,
+            "activeDeals": 18,
+            "investmentThesis": "We invest in entrepreneurs building the future across all stages of company growth. Our mission is to connect entrepreneurs, investors, executives, engineers, academics, and others in the technology industry.",
+            "dealSize": "large"
+        },
+        {
+            "id": 3,
+            "name": "Accel Partners",
+            "type": "Venture Capital",
+            "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=accel&backgroundColor=0891b2",
+            "location": "Palo Alto, CA",
+            "status": "Active",
+            "investmentRange": {
+                "min": "$250K",
+                "max": "$15M"
+            },
+            "focusIndustries": [
+                "SaaS",
+                "E-commerce",
+                "HealthTech"
+            ],
+            "investmentStages": [
+                "Seed",
+                "Series A",
+                "Series B"
+            ],
+            "portfolioCompanies": 96,
+            "activeDeals": 15,
+            "investmentThesis": "We partner with exceptional entrepreneurs from earliest stages through to IPO. Our focus is on companies that can become category-defining leaders.",
+            "dealSize": "medium"
+        },
+        {
+            "id": 4,
+            "name": "Lightspeed Venture",
+            "type": "Venture Capital",
+            "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=lightspeed&backgroundColor=171717",
+            "location": "Menlo Park, CA",
+            "status": "Active",
+            "investmentRange": {
+                "min": "$500K",
+                "max": "$20M"
+            },
+            "focusIndustries": [
+                "AI/ML",
+                "CleanTech",
+                "EdTech"
+            ],
+            "investmentStages": [
+                "Pre-Seed",
+                "Seed",
+                "Series A"
+            ],
+            "portfolioCompanies": 78,
+            "activeDeals": 10,
+            "investmentThesis": "We support exceptional founders at the earliest stages of company building. Our approach combines deep sector expertise with hands-on operational support.",
+            "dealSize": "medium"
+        },
+        {
+            "id": 5,
+            "name": "Benchmark Capital",
+            "type": "Venture Capital",
+            "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=benchmark&backgroundColor=dc2626",
+            "location": "San Francisco, CA",
+            "status": "Active",
+            "investmentRange": {
+                "min": "$2M",
+                "max": "$30M"
+            },
+            "focusIndustries": [
+                "SaaS",
+                "E-commerce",
+                "AI/ML"
+            ],
+            "investmentStages": [
+                "Seed",
+                "Series A",
+                "Series B"
+            ],
+            "portfolioCompanies": 65,
+            "activeDeals": 8,
+            "investmentThesis": "We invest in early-stage technology companies with transformative potential. Our equal partnership model ensures every partner is deeply involved.",
+            "dealSize": "large"
+        },
+        {
+            "id": 6,
+            "name": "FirstMark Capital",
+            "type": "Venture Capital",
+            "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=firstmark&backgroundColor=7c3aed",
+            "location": "New York, NY",
+            "status": "Active",
+            "investmentRange": {
+                "min": "$1M",
+                "max": "$25M"
+            },
+            "focusIndustries": [
+                "FinTech",
+                "E-commerce",
+                "SaaS"
+            ],
+            "investmentStages": [
+                "Seed",
+                "Series A",
+                "Series B"
+            ],
+            "portfolioCompanies": 72,
+            "activeDeals": 14,
+            "investmentThesis": "We partner with visionary founders at the earliest stages, focusing on internet and software companies that are building the digital infrastructure of tomorrow.",
+            "dealSize": "large"
+        }
+    ],
+    "incubators": [
+        {
+            "id": 101,
+            "name": "Y Combinator",
+            "type": "Accelerator",
+            "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=yc&backgroundColor=f97316",
+            "location": "Mountain View, CA",
+            "status": "Active",
+            "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800",
+            "duration": "3 Months",
+            "equity": "7%",
+            "funding": "$500K",
+            "focusAreas": [
+                "SaaS",
+                "FinTech",
+                "AI/ML",
+                "HealthTech"
+            ],
+            "batchSize": 200,
+            "successRate": "92%",
+            "alumni": 4000,
+            "description": "The world's most successful startup accelerator. We provide seed funding, advice, and connections to help startups get off the ground. Our alumni include Airbnb, Dropbox, Stripe, and Reddit.",
+            "programHighlight": "Twice-yearly batches with Demo Day in front of 100+ investors"
+        },
+        {
+            "id": 102,
+            "name": "Techstars",
+            "type": "Accelerator",
+            "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=techstars&backgroundColor=22c55e",
+            "location": "Boulder, CO",
+            "status": "Active",
+            "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800",
+            "duration": "3 Months",
+            "equity": "6%",
+            "funding": "$120K",
+            "focusAreas": [
+                "AI/ML",
+                "CleanTech",
+                "EdTech",
+                "E-commerce"
+            ],
+            "batchSize": 10,
+            "successRate": "88%",
+            "alumni": 3200,
+            "description": "A global network that helps entrepreneurs succeed. We provide mentorship-driven accelerator programs, connecting founders with a worldwide network of mentors, investors, and alumni.",
+            "programHighlight": "Lifetime access to global network of mentors and investors"
+        },
+        {
+            "id": 103,
+            "name": "500 Startups",
+            "type": "Accelerator",
+            "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=500startups&backgroundColor=3b82f6",
+            "location": "San Francisco, CA",
+            "status": "Active",
+            "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800",
+            "duration": "4 Months",
+            "equity": "5%",
+            "funding": "$150K",
+            "focusAreas": [
+                "E-commerce",
+                "FinTech",
+                "SaaS",
+                "Consumer"
+            ],
+            "batchSize": 30,
+            "successRate": "85%",
+            "alumni": 2500,
+            "description": "Global venture capital firm with a network of funds that invest in early-stage technology and media companies. We help startups with growth marketing, design, and fundraising.",
+            "programHighlight": "Focus on growth hacking and international expansion"
+        },
+        {
+            "id": 104,
+            "name": "Plug and Play",
+            "type": "Accelerator",
+            "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=plugandplay&backgroundColor=8b5cf6",
+            "location": "Sunnyvale, CA",
+            "status": "Active",
+            "image": "https://images.unsplash.com/photo-1497366412874-3415097a27e7?w=800",
+            "duration": "3 Months",
+            "equity": "4%",
+            "funding": "$100K",
+            "focusAreas": [
+                "FinTech",
+                "HealthTech",
+                "IoT",
+                "Mobility"
+            ],
+            "batchSize": 40,
+            "successRate": "80%",
+            "alumni": 1800,
+            "description": "Innovation platform connecting startups, corporations, and investors. We operate industry-specific programs with direct access to corporate partners and venture capital.",
+            "programHighlight": "Direct access to 500+ corporate partners worldwide"
+        }
+    ],
+    "stats": {
+        "activeInvestors": 1247,
+        "incubators": 89,
+        "fundingFacilitated": "$2.4B",
+        "activeConnections": 5832
+    },
+    "filters": {
+        "investmentRanges": [
+            {
+                "name": "Under $500K",
+                "min": 0,
+                "max": 500000
+            },
+            {
+                "name": "$500K - $2M",
+                "min": 500000,
+                "max": 2000000
+            },
+            {
+                "name": "$2M - $10M",
+                "min": 2000000,
+                "max": 10000000
+            },
+            {
+                "name": "$10M - $50M",
+                "min": 10000000,
+                "max": 50000000
+            },
+            {
+                "name": "$50M+",
+                "min": 50000000,
+                "max": 1000000000
+            }
+        ],
+        "industries": [
+            "FinTech",
+            "HealthTech",
+            "EdTech",
+            "AI/ML",
+            "SaaS",
+            "E-commerce",
+            "CleanTech",
+            "BioTech"
+        ],
+        "investmentStages": [
+            "Pre-Seed",
+            "Seed",
+            "Series A",
+            "Series B",
+            "Growth"
+        ],
+        "locations": [
+            "All Locations",
+            "United States",
+            "United Kingdom",
+            "Singapore",
+            "India",
+            "Germany",
+            "Canada"
+        ]
+    }
+}

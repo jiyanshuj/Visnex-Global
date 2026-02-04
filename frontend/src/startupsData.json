@@ -1,0 +1,322 @@
+{
+    "startups": [
+        {
+            "id": 1,
+            "name": "FinFlow AI",
+            "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=finflow",
+            "tagline": "AI-powered financial planning for SMBs",
+            "description": "Revolutionizing financial management for small and medium-sized businesses with intelligent automation and predictive analytics.",
+            "matchPercentage": 95,
+            "industry": "FinTech",
+            "fundingStage": "Series A",
+            "location": "San Francisco",
+            "lastActive": "2 hours ago",
+            "funding": "$8.5M",
+            "teamSize": 45,
+            "founded": 2022,
+            "growth": "+320%",
+            "categories": [
+                "FinTech",
+                "AI/ML",
+                "SaaS"
+            ],
+            "foundingTeam": [
+                "https://i.pravatar.cc/150?img=1",
+                "https://i.pravatar.cc/150?img=2",
+                "https://i.pravatar.cc/150?img=3",
+                "https://i.pravatar.cc/150?img=4"
+            ],
+            "tags": [
+                "Financial Planning",
+                "SMB",
+                "AI Analytics"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "HealthBridge",
+            "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=healthbridge",
+            "tagline": "Connecting patients with specialized care",
+            "description": "Bridging the gap between patients and healthcare providers through intelligent matching and seamless communication.",
+            "matchPercentage": 82,
+            "industry": "HealthTech",
+            "fundingStage": "Seed",
+            "location": "New York",
+            "lastActive": "5 hours ago",
+            "funding": "$3.2M",
+            "teamSize": 28,
+            "founded": 2023,
+            "growth": "+180%",
+            "categories": [
+                "HealthTech",
+                "Telemedicine"
+            ],
+            "foundingTeam": [
+                "https://i.pravatar.cc/150?img=5",
+                "https://i.pravatar.cc/150?img=6",
+                "https://i.pravatar.cc/150?img=7"
+            ],
+            "tags": [
+                "Healthcare",
+                "Patient Care",
+                "Telemedicine"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "EduTech Pro",
+            "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=edutech",
+            "tagline": "Next-generation learning platform with immersive AR experiences",
+            "description": "Transforming education through augmented reality and personalized learning paths powered by AI.",
+            "matchPercentage": 78,
+            "industry": "EdTech",
+            "fundingStage": "Pre-Seed",
+            "location": "Boston",
+            "lastActive": "1 day ago",
+            "funding": "$1.5M",
+            "teamSize": 15,
+            "founded": 2024,
+            "growth": "+250%",
+            "categories": [
+                "EdTech",
+                "AR/VR",
+                "AI/ML"
+            ],
+            "foundingTeam": [
+                "https://i.pravatar.cc/150?img=8",
+                "https://i.pravatar.cc/150?img=9",
+                "https://i.pravatar.cc/150?img=10"
+            ],
+            "tags": [
+                "Education",
+                "AR",
+                "Personalized Learning"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "CloudSync Pro",
+            "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=cloudsync",
+            "tagline": "Enterprise cloud infrastructure management",
+            "description": "Simplifying multi-cloud management for enterprises with unified dashboards and automated optimization.",
+            "matchPercentage": 91,
+            "industry": "SaaS",
+            "fundingStage": "Series B",
+            "location": "Singapore",
+            "lastActive": "30 minutes ago",
+            "funding": "$25M",
+            "teamSize": 120,
+            "founded": 2020,
+            "growth": "+150%",
+            "categories": [
+                "SaaS",
+                "Cloud",
+                "DevOps",
+                "Enterprise"
+            ],
+            "foundingTeam": [
+                "https://i.pravatar.cc/150?img=11",
+                "https://i.pravatar.cc/150?img=12",
+                "https://i.pravatar.cc/150?img=13",
+                "https://i.pravatar.cc/150?img=14"
+            ],
+            "tags": [
+                "Cloud",
+                "DevOps",
+                "Enterprise",
+                "+1 more"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "GreenCart",
+            "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=greencart",
+            "tagline": "Sustainable e-commerce marketplace",
+            "description": "Connecting conscious consumers with eco-friendly brands. Every purchase plants a tree and supports sustainable practices.",
+            "matchPercentage": 76,
+            "industry": "E-Commerce",
+            "fundingStage": "Seed",
+            "location": "Berlin",
+            "lastActive": "3 hours ago",
+            "funding": "$4.8M",
+            "teamSize": 32,
+            "founded": 2023,
+            "growth": "+290%",
+            "categories": [
+                "E-Commerce",
+                "Sustainability",
+                "Marketplace",
+                "B2C"
+            ],
+            "foundingTeam": [
+                "https://i.pravatar.cc/150?img=15",
+                "https://i.pravatar.cc/150?img=16",
+                "https://i.pravatar.cc/150?img=17"
+            ],
+            "tags": [
+                "Sustainability",
+                "Marketplace",
+                "B2C",
+                "+1 more"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "DataLens AI",
+            "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=datalens",
+            "tagline": "No-code data analytics for everyone",
+            "description": "Democratizing data analytics with AI-powered insights and natural language queries for business intelligence.",
+            "matchPercentage": 89,
+            "industry": "AI/ML",
+            "fundingStage": "Series A",
+            "location": "Bangalore",
+            "lastActive": "1 hour ago",
+            "funding": "$12M",
+            "teamSize": 67,
+            "founded": 2021,
+            "growth": "+210%",
+            "categories": [
+                "AI/ML",
+                "Analytics",
+                "No-Code",
+                "B2B"
+            ],
+            "foundingTeam": [
+                "https://i.pravatar.cc/150?img=18",
+                "https://i.pravatar.cc/150?img=19",
+                "https://i.pravatar.cc/150?img=20"
+            ],
+            "tags": [
+                "Analytics",
+                "No-Code",
+                "B2B",
+                "+1 more"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "CryptoGuard",
+            "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=cryptoguard",
+            "tagline": "Enterprise blockchain security solutions",
+            "description": "Protecting digital assets with military-grade encryption and real-time threat detection for blockchain networks.",
+            "matchPercentage": 85,
+            "industry": "Blockchain",
+            "fundingStage": "Series A",
+            "location": "Zurich",
+            "lastActive": "4 hours ago",
+            "funding": "$18M",
+            "teamSize": 54,
+            "founded": 2022,
+            "growth": "+175%",
+            "categories": [
+                "Blockchain",
+                "Security",
+                "Enterprise"
+            ],
+            "foundingTeam": [
+                "https://i.pravatar.cc/150?img=21",
+                "https://i.pravatar.cc/150?img=22",
+                "https://i.pravatar.cc/150?img=23",
+                "https://i.pravatar.cc/150?img=24"
+            ],
+            "tags": [
+                "Blockchain",
+                "Security",
+                "Crypto"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "CleanWave",
+            "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=cleanwave",
+            "tagline": "Ocean cleanup automation technology",
+            "description": "Developing autonomous systems for ocean plastic removal using AI-powered drones and sustainable collection methods.",
+            "matchPercentage": 73,
+            "industry": "CleanTech",
+            "fundingStage": "Seed",
+            "location": "Amsterdam",
+            "lastActive": "6 hours ago",
+            "funding": "$5.5M",
+            "teamSize": 38,
+            "founded": 2023,
+            "growth": "+220%",
+            "categories": [
+                "CleanTech",
+                "Robotics",
+                "Sustainability"
+            ],
+            "foundingTeam": [
+                "https://i.pravatar.cc/150?img=25",
+                "https://i.pravatar.cc/150?img=26",
+                "https://i.pravatar.cc/150?img=27"
+            ],
+            "tags": [
+                "Ocean Tech",
+                "Robotics",
+                "Environment"
+            ]
+        }
+    ],
+    "filters": {
+        "industries": [
+            {
+                "name": "FinTech",
+                "count": 47
+            },
+            {
+                "name": "HealthTech",
+                "count": 38
+            },
+            {
+                "name": "EdTech",
+                "count": 29
+            },
+            {
+                "name": "SaaS",
+                "count": 56
+            },
+            {
+                "name": "E-Commerce",
+                "count": 42
+            },
+            {
+                "name": "AI/ML",
+                "count": 51
+            },
+            {
+                "name": "Blockchain",
+                "count": 23
+            },
+            {
+                "name": "CleanTech",
+                "count": 18
+            }
+        ],
+        "fundingStages": [
+            {
+                "name": "Pre-Seed",
+                "count": 34
+            },
+            {
+                "name": "Seed",
+                "count": 67
+            },
+            {
+                "name": "Series A",
+                "count": 45
+            },
+            {
+                "name": "Series B",
+                "count": 28
+            },
+            {
+                "name": "Series C+",
+                "count": 15
+            },
+            {
+                "name": "Bootstrapped",
+                "count": 52
+            }
+        ]
+    }
+}
