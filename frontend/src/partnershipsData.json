@@ -1,0 +1,233 @@
+{
+  "hero": {
+    "badge": "AI-Powered Partnership Matching",
+    "title": "Transform Your Startup Through Strategic Partnerships",
+    "description": "Connect with complementary startups, share resources, and accelerate growth through our intelligent ecosystem marketplace. From skill exchanges to strategic collaborations.",
+    "stats": [
+      {
+        "value": "2.5K+",
+        "label": "Active Partners",
+        "color": "orange"
+      },
+      {
+        "value": "94%",
+        "label": "Success Rate",
+        "color": "green"
+      },
+      {
+        "value": "$12M+",
+        "label": "Value Created",
+        "color": "blue"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "All Partnerships",
+      "count": 247,
+      "icon": "globe",
+      "color": "orange",
+      "description": "Browse all available collaboration opportunities",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Technology Exchange",
+      "count": 89,
+      "icon": "code",
+      "color": "blue",
+      "description": "Share technical expertise and development resources"
+    },
+    {
+      "id": 3,
+      "name": "Marketing Collaboration",
+      "count": 64,
+      "icon": "megaphone",
+      "color": "green",
+      "description": "Joint marketing campaigns and brand partnerships"
+    },
+    {
+      "id": 4,
+      "name": "Co-Investment",
+      "count": 42,
+      "icon": "dollar",
+      "color": "yellow",
+      "description": "Shared funding opportunities and investor introductions"
+    },
+    {
+      "id": 5,
+      "name": "Distribution Network",
+      "count": 35,
+      "icon": "truck",
+      "color": "red",
+      "description": "Access new markets through partner channels"
+    },
+    {
+      "id": 6,
+      "name": "R&D Partnership",
+      "count": 17,
+      "icon": "flask",
+      "color": "purple",
+      "description": "Collaborative research and development projects"
+    }
+  ],
+  "activeOpportunities": [
+    {
+      "id": 1,
+      "title": "Sustainable Supply Chain Network",
+      "company": "EcoLogistics",
+      "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=ecologistics&backgroundColor=22c55e",
+      "matchPercentage": 87,
+      "priority": "MEDIUM",
+      "description": "Building a network of eco-friendly logistics partners to create the most sustainable supply chain in e-commerce. Seeking partnerships with green technology startups focused on carbon reduction and renewable energy solutions.",
+      "tags": ["Supply Chain", "Sustainability", "Logistics"],
+      "investment": "$25K - $75K",
+      "duration": "2-4 months",
+      "location": "Europe / Remote",
+      "type": "Technology Exchange"
+    }
+  ],
+  "resources": [
+    {
+      "id": 1,
+      "title": "Partnership Agreement Templates",
+      "provider": "LegalTech Solutions",
+      "category": "Legal",
+      "price": 299,
+      "featured": true,
+      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800",
+      "description": "Comprehensive collection of legally-vetted partnership agreement templates covering various collaboration scenarios, equity splits, and IP protection.",
+      "rating": 4.8,
+      "reviews": 156,
+      "tags": ["Legal", "Templates"]
+    },
+    {
+      "id": 2,
+      "title": "Partnership ROI Calculator",
+      "provider": "Analytics Pro",
+      "category": "Analytics",
+      "price": 149,
+      "featured": false,
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800",
+      "description": "Advanced calculator to measure and predict partnership return on investment with customizable metrics, scenario planning, and comprehensive reporting features.",
+      "rating": 4.6,
+      "reviews": 89,
+      "tags": ["Analytics", "ROI"]
+    },
+    {
+      "id": 3,
+      "title": "Collaboration Workspace Suite",
+      "provider": "TeamSync",
+      "category": "Productivity",
+      "price": 49,
+      "priceType": "month",
+      "featured": true,
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800",
+      "description": "Integrated workspace platform designed specifically for startup partnerships with project management, file sharing, and communication tools all in one place.",
+      "rating": 4.9,
+      "reviews": 234,
+      "tags": ["Collaboration", "Project Management"]
+    }
+  ],
+  "metrics": {
+    "title": "Partnership Success Metrics",
+    "subtitle": "Real-time insights into our ecosystem's collaborative impact",
+    "stats": [
+      {
+        "icon": "link",
+        "value": "2,847",
+        "label": "Active Partnerships",
+        "change": "+12%",
+        "trend": "up",
+        "color": "orange"
+      },
+      {
+        "icon": "trophy",
+        "value": "94.2%",
+        "label": "Success Rate",
+        "change": "+2.1%",
+        "trend": "up",
+        "color": "green"
+      },
+      {
+        "icon": "dollar",
+        "value": "$47.2M",
+        "label": "Value Created",
+        "change": "+18%",
+        "trend": "up",
+        "color": "yellow"
+      },
+      {
+        "icon": "clock",
+        "value": "3.2 days",
+        "label": "Avg. Match Time",
+        "change": "-15%",
+        "trend": "down",
+        "color": "blue"
+      }
+    ]
+  },
+  "tools": [
+    {
+      "id": 1,
+      "name": "Partnership Proposal Generator",
+      "category": "Proposals",
+      "icon": "file-text",
+      "popular": true,
+      "description": "AI-powered tool that creates customized partnership proposals based on your startup profile and target partner requirements.",
+      "features": [
+        "AI-generated content tailored to your industry",
+        "Professional templates and formatting",
+        "Integration with partner databases",
+        "Real-time collaboration features"
+      ],
+      "color": "orange"
+    },
+    {
+      "id": 2,
+      "name": "Collaboration Agreement Builder",
+      "category": "Legal",
+      "icon": "scale",
+      "popular": false,
+      "description": "Step-by-step wizard to create legally sound collaboration agreements with built-in compliance checks and expert review options.",
+      "features": [
+        "Interactive agreement builder",
+        "Legal compliance verification",
+        "Multi-jurisdiction support",
+        "Expert lawyer review network"
+      ],
+      "color": "blue"
+    },
+    {
+      "id": 3,
+      "name": "Partnership Performance Dashboard",
+      "category": "Analytics",
+      "icon": "bar-chart",
+      "popular": true,
+      "description": "Comprehensive analytics platform to track, measure, and optimize your partnership performance with real-time insights and reporting.",
+      "features": [
+        "Real-time performance metrics",
+        "Custom KPI tracking",
+        "Automated reporting",
+        "Predictive analytics"
+      ],
+      "color": "green"
+    },
+    {
+      "id": 4,
+      "name": "Resource Exchange Platform",
+      "category": "Collaboration",
+      "icon": "share",
+      "popular": false,
+      "description": "Secure platform for sharing resources, expertise, and assets between partner organizations with built-in access controls.",
+      "features": [
+        "Secure file sharing",
+        "Resource cataloging",
+        "Access permission management",
+        "Usage analytics"
+      ],
+      "color": "purple"
+    }
+  ]
+}

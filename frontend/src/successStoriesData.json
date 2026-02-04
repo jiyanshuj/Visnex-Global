@@ -1,0 +1,268 @@
+{
+  "stats": [
+    {
+      "id": 1,
+      "icon": "dollar",
+      "value": "$2.4B",
+      "label": "Total Funding Facilitated",
+      "change": "+18%",
+      "trend": "up",
+      "period": "vs last month"
+    },
+    {
+      "id": 2,
+      "icon": "handshake",
+      "value": "1,247",
+      "label": "Successful Partnerships",
+      "change": "+24%",
+      "trend": "up",
+      "period": "vs last month"
+    },
+    {
+      "id": 3,
+      "icon": "trending-up",
+      "value": "87%",
+      "label": "Platform Success Rate",
+      "change": "+5%",
+      "trend": "up",
+      "period": "vs last month"
+    },
+    {
+      "id": 4,
+      "icon": "globe",
+      "value": "94",
+      "label": "Global Reach",
+      "change": "+12",
+      "trend": "up",
+      "period": "vs last month"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah Chen",
+      "role": "CEO & Founder",
+      "company": "TechFlow AI",
+      "avatar": "https://i.pravatar.cc/200?img=5",
+      "quote": "Visnestors transformed our fundraising journey. The AI-powered matching connected us with investors who truly understood our vision. Within months, we closed our Series B and accelerated our growth trajectory beyond our wildest expectations.",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Marcus Rodriguez",
+      "role": "Founder",
+      "company": "GreenEnergy Solutions",
+      "avatar": "https://i.pravatar.cc/200?img=12",
+      "quote": "The partnership hub was game-changing for our startup. We found strategic manufacturing partners and secured critical funding faster than we ever thought possible. The platform's intelligent matching saved us months of networking.",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "name": "Dr. Emily Watson",
+      "role": "Co-Founder",
+      "company": "HealthTech Innovations",
+      "avatar": "https://i.pravatar.cc/200?img=47",
+      "quote": "Visnestors gave us access to a global network of healthcare investors and partners. The ecosystem approach helped us scale internationally in record time. Best decision we made for our company's growth.",
+      "rating": 5
+    }
+  ],
+  "filters": {
+    "industries": [
+      { "value": "all", "label": "All Industries" },
+      { "value": "ai", "label": "Artificial Intelligence", "count": 1 },
+      { "value": "clean-energy", "label": "Clean Energy", "count": 1 },
+      { "value": "healthcare", "label": "Healthcare Technology", "count": 1 },
+      { "value": "fintech", "label": "Financial Technology", "count": 1 },
+      { "value": "edtech", "label": "Education Technology", "count": 1 },
+      { "value": "supply-chain", "label": "Supply Chain", "count": 1 }
+    ],
+    "stages": [
+      { "value": "all", "label": "All Stages" },
+      { "value": "seed", "label": "Seed", "count": 2 },
+      { "value": "series-a", "label": "Series A", "count": 2 },
+      { "value": "series-b", "label": "Series B", "count": 2 }
+    ],
+    "achievements": [
+      { "value": "all", "label": "All Achievements" },
+      { "value": "funding", "label": "Funding Success", "count": 2 },
+      { "value": "partnership", "label": "Partnership", "count": 2 },
+      { "value": "market-expansion", "label": "Market Expansion", "count": 1 },
+      { "value": "user-growth", "label": "User Growth", "count": 1 }
+    ]
+  },
+  "stories": [
+    {
+      "id": 1,
+      "featured": true,
+      "hasVideo": true,
+      "title": "From Seed to $50M Series B in 18 Months",
+      "company": "TechFlow AI",
+      "founder": {
+        "name": "Sarah Chen",
+        "avatar": "https://i.pravatar.cc/150?img=5",
+        "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=techflow&backgroundColor=3b82f6"
+      },
+      "image": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=800",
+      "industry": "Artificial Intelligence",
+      "stage": "Series B",
+      "achievement": "Funding Success",
+      "description": "TechFlow AI connected with three strategic investors through Visnestors, securing $50M in Series B funding. The platform's AI matching helped them find investors who understood their vision and accelerated their growth.",
+      "metrics": [
+        { "icon": "dollar", "value": "$50M", "label": "Funding" },
+        { "icon": "trending-up", "value": "340%", "label": "Growth" },
+        { "icon": "users", "value": "120", "label": "Team" }
+      ],
+      "timeline": {
+        "connected": "03/15/2025",
+        "success": "09/22/2025"
+      }
+    },
+    {
+      "id": 2,
+      "featured": true,
+      "hasVideo": false,
+      "title": "Strategic Partnership with Fortune 500 Company",
+      "company": "GreenEnergy Solutions",
+      "founder": {
+        "name": "Marcus Johnson",
+        "avatar": "https://i.pravatar.cc/150?img=12",
+        "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=greenenergy&backgroundColor=22c55e"
+      },
+      "image": "https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=800",
+      "industry": "Clean Energy",
+      "stage": "Series A",
+      "achievement": "Partnership",
+      "description": "Through Visnestors partnership hub, we connected with a Fortune 500 company, resulting in a transformative strategic partnership that accelerated our solar panel production and market reach.",
+      "metrics": [
+        { "icon": "dollar", "value": "$12M", "label": "Revenue" },
+        { "icon": "briefcase", "value": "450", "label": "Clients" },
+        { "icon": "zap", "value": "2.5M", "label": "Impact" }
+      ],
+      "timeline": {
+        "connected": "01/10/2025",
+        "success": "06/18/2025"
+      }
+    },
+    {
+      "id": 3,
+      "featured": false,
+      "hasVideo": false,
+      "title": "Expanded to 15 Countries in 12 Months",
+      "company": "HealthTech Innovations",
+      "founder": {
+        "name": "Dr. Emily Rodriguez",
+        "avatar": "https://i.pravatar.cc/150?img=47",
+        "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=healthtech&backgroundColor=10b981"
+      },
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800",
+      "industry": "Healthcare Technology",
+      "stage": "Seed",
+      "achievement": "Market Expansion",
+      "description": "Visnestors connected us with international incubators and regional investors, enabling rapid global expansion. The platform's ecosystem approach helped us enter 15 new markets efficiently.",
+      "metrics": [
+        { "icon": "globe", "value": "15", "label": "Countries" },
+        { "icon": "users", "value": "500K", "label": "Users" },
+        { "icon": "trending-up", "value": "890%", "label": "Growth" }
+      ],
+      "timeline": {
+        "connected": "05/20/2025",
+        "success": "11/30/2025"
+      }
+    },
+    {
+      "id": 4,
+      "featured": false,
+      "hasVideo": false,
+      "title": "Built Global Distribution Network",
+      "company": "SupplyChain Pro",
+      "founder": {
+        "name": "James Liu",
+        "avatar": "https://i.pravatar.cc/150?img=33",
+        "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=supplychain&backgroundColor=f59e0b"
+      },
+      "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800",
+      "industry": "Supply Chain",
+      "stage": "Series A",
+      "achievement": "Partnership",
+      "description": "Connected with logistics partners across 20+ countries through Visnestors, building a comprehensive distribution network that reduced our delivery times by 60% and costs by 40%.",
+      "metrics": [
+        { "icon": "truck", "value": "20+", "label": "Countries" },
+        { "icon": "clock", "value": "60%", "label": "Faster" },
+        { "icon": "dollar", "value": "40%", "label": "Savings" }
+      ],
+      "timeline": {
+        "connected": "02/14/2025",
+        "success": "08/30/2025"
+      }
+    },
+    {
+      "id": 5,
+      "featured": false,
+      "hasVideo": false,
+      "title": "Achieved Product-Market Fit in 6 Months",
+      "company": "EduTech Platform",
+      "founder": {
+        "name": "Priya Sharma",
+        "avatar": "https://i.pravatar.cc/150?img=45",
+        "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=edutech&backgroundColor=8b5cf6"
+      },
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800",
+      "industry": "Education Technology",
+      "stage": "Seed",
+      "achievement": "User Growth",
+      "description": "Visnestors mentorship network helped us refine our product strategy and connect with early adopters. We achieved product-market fit faster than expected and secured seed funding.",
+      "metrics": [
+        { "icon": "users", "value": "100K", "label": "Users" },
+        { "icon": "dollar", "value": "$3M", "label": "Funding" },
+        { "icon": "star", "value": "4.8", "label": "Rating" }
+      ],
+      "timeline": {
+        "connected": "04/05/2025",
+        "success": "10/12/2025"
+      }
+    },
+    {
+      "id": 6,
+      "featured": false,
+      "hasVideo": false,
+      "title": "Secured Strategic Acquisition Offer",
+      "company": "FinTech Innovators",
+      "founder": {
+        "name": "Alex Thompson",
+        "avatar": "https://i.pravatar.cc/150?img=68",
+        "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=fintech&backgroundColor=ef4444"
+      },
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800",
+      "industry": "Financial Technology",
+      "stage": "Series B",
+      "achievement": "Funding Success",
+      "description": "Through strategic connections made on Visnestors, we attracted attention from major financial institutions, resulting in a compelling acquisition offer that valued our technology at 5x our last valuation.",
+      "metrics": [
+        { "icon": "dollar", "value": "$75M", "label": "Valuation" },
+        { "icon": "trending-up", "value": "5x", "label": "Multiple" },
+        { "icon": "users", "value": "85", "label": "Team" }
+      ],
+      "timeline": {
+        "connected": "01/20/2025",
+        "success": "07/15/2025"
+      }
+    }
+  ],
+  "submitCTA": {
+    "badge": "Share Your Success",
+    "title": "Your Story Could Inspire Thousands",
+    "description": "Have you achieved remarkable growth through Visnestors? Share your journey and inspire the next generation of entrepreneurs. Your success story matters.",
+    "benefits": [
+      "Get featured on our platform",
+      "Inspire fellow entrepreneurs",
+      "Increase your visibility",
+      "Build your brand authority"
+    ],
+    "stats": [
+      { "icon": "file-text", "value": "5 min", "label": "Easy Submission" },
+      { "icon": "eye", "value": "10K+", "label": "Avg. Views" },
+      { "icon": "users", "value": "50K+", "label": "Community" },
+      { "icon": "trophy", "value": "Weekly", "label": "Featured" }
+    ]
+  }
+}

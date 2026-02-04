@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Rocket, DollarSign, Building2, TrendingUp, Globe, Users } from 'lucide-react';
+import { Rocket, DollarSign, Building2, TrendingUp, Globe, Users, Handshake } from 'lucide-react';
 
 const HomePage = ({ setCurrentPage }) => {
     const canvasRef = useRef(null);
@@ -325,6 +325,49 @@ const HomePage = ({ setCurrentPage }) => {
                                 </svg>
                             </button>
                         </div>
+
+                        {/* Partnerships Card */}
+                        <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-2xl hover:shadow-orange-500/20 hover:border-orange-500/50 transition-all duration-300 group">
+                            <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                                <Handshake className="w-8 h-8 text-white" />
+                            </div>
+                            <h3 className="text-2xl font-bold text-white mb-4">Partnerships</h3>
+                            <p className="text-gray-300 mb-6">
+                                Forge strategic alliances, access premium resources, and unlock growth opportunities through curated partnership marketplace.
+                            </p>
+                            <ul className="space-y-3 mb-8">
+                                <li className="flex items-start gap-3">
+                                    <svg className="w-5 h-5 text-orange-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                                    </svg>
+                                    <span className="text-gray-300">Strategic partner matching</span>
+                                </li>
+                                <li className="flex items-start gap-3">
+                                    <svg className="w-5 h-5 text-orange-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                                    </svg>
+                                    <span className="text-gray-300">Resource marketplace</span>
+                                </li>
+                                <li className="flex items-start gap-3">
+                                    <svg className="w-5 h-5 text-orange-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                                    </svg>
+                                    <span className="text-gray-300">Collaboration tools & templates</span>
+                                </li>
+                                <li className="flex items-start gap-3">
+                                    <svg className="w-5 h-5 text-orange-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                                    </svg>
+                                    <span className="text-gray-300">Success metrics & tracking</span>
+                                </li>
+                            </ul>
+                            <button onClick={() => setCurrentPage('partnerships')} className="w-full py-3 bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-orange-500/30 transition-all duration-300 flex items-center justify-center gap-2">
+                                Explore Partnerships
+                                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                                </svg>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -596,6 +639,10 @@ const HomePage = ({ setCurrentPage }) => {
                         <div className="flex items-center gap-2">
                             <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
                             <span className="text-white text-sm font-medium">Incubators</span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
+                            <span className="text-white text-sm font-medium">Partnerships</span>
                         </div>
                     </div>
 
