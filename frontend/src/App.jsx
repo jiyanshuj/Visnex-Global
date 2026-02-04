@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Navbar from './components/navbar'
 import HomePage from './components/homepage'
 import StartupsPage from './components/StartupsPage'
@@ -10,6 +10,35 @@ import './App.css'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
+
+  // Handle URL hash changes
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash.slice(1); // Remove the '#' symbol
+      const validPages = ['home', 'startups', 'investors', 'partnerships', 'success-stories', 'growth-tools'];
+
+      if (hash && validPages.includes(hash)) {
+        setCurrentPage(hash);
+      } else {
+        // Default to home if no valid hash
+        window.location.hash = '#home';
+        setCurrentPage('home');
+      }
+    };
+
+    // Set initial page from URL hash on mount
+    handleHashChange();
+
+    // Listen for hash changes (back/forward buttons, direct URL navigation)
+    window.addEventListener('hashchange', handleHashChange);
+
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
+
+  // Update URL hash when page changes
+  useEffect(() => {
+    window.location.hash = `#${currentPage}`;
+  }, [currentPage]);
 
   return (
     <div className="bg-black min-h-screen">
