@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Search, TrendingUp, MapPin, Clock, Users, Calendar, BarChart3, Grid3x3, List, Check } from 'lucide-react';
-import startupsData from './startupsData.json';
+import startupsData from '../data/startupsData.json';
 
 const StartupsPage = () => {
     const [searchQuery, setSearchQuery] = useState('');
@@ -317,10 +317,10 @@ const StartupsPage = () => {
                                         {/* Tags */}
                                         <div className="flex flex-wrap gap-2 mb-4">
                                             <span className={`px-3 py-1 text-xs font-semibold rounded-full ${startup.fundingStage === 'Series A' || startup.fundingStage === 'Series B'
-                                                    ? 'bg-purple-500/20 border border-purple-500/30 text-purple-400'
-                                                    : startup.fundingStage === 'Seed'
-                                                        ? 'bg-green-500/20 border border-green-500/30 text-green-400'
-                                                        : 'bg-blue-500/20 border border-blue-500/30 text-blue-400'
+                                                ? 'bg-purple-500/20 border border-purple-500/30 text-purple-400'
+                                                : startup.fundingStage === 'Seed'
+                                                    ? 'bg-green-500/20 border border-green-500/30 text-green-400'
+                                                    : 'bg-blue-500/20 border border-blue-500/30 text-blue-400'
                                                 }`}>
                                                 {startup.fundingStage}
                                             </span>

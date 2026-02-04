@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Search, MapPin, DollarSign, Building2, Users, TrendingUp, Clock, Calendar, Award, Eye, Info, Rocket } from 'lucide-react';
-import investorsData from './investorsData.json';
+import investorsData from '../data/investorsData.json';
 
 const InvestorsPage = () => {
     const [activeTab, setActiveTab] = useState('investors');

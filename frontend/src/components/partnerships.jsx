@@ -5,7 +5,7 @@ import {
   FileText, Scale, BarChart, Share2, Check, Heart,
   Filter, ArrowUpDown, Star, Play, Sparkles
 } from 'lucide-react';
-import partnershipsData from './partnershipsData.json';
+import partnershipsData from '../data/partnershipsData.json';
 
 const PartnershipsPage = () => {
   const [filterOpen, setFilterOpen] = useState(false);

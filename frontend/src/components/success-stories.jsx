@@ -5,7 +5,7 @@ import {
   Calendar, CheckCircle, Briefcase, Zap, Clock, Truck,
   FileText, Eye, Trophy
 } from 'lucide-react';
-import successStoriesData from './successStoriesData.json';
+import successStoriesData from '../data/successStoriesData.json';
 
 const SuccessStoriesPage = ({ setCurrentPage }) => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);

@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import Navbar from './navbar'
-import HomePage from './homepage'
-import StartupsPage from './StartupsPage'
-import InvestorsPage from './investors'
-import PartnershipsPage from './partnerships'
-import SuccessStoriesPage from './success-stories'
+import Navbar from './components/navbar'
+import HomePage from './components/homepage'
+import StartupsPage from './components/StartupsPage'
+import InvestorsPage from './components/investors'
+import PartnershipsPage from './components/partnerships'
+import SuccessStoriesPage from './components/success-stories'
 import './App.css'
 
 function App() {
