@@ -72,6 +72,21 @@ const Navbar = ({ currentPage, setCurrentPage }) => {
                             </svg>
                             Investors
                         </button>
+
+                        <button
+                            onClick={() => setCurrentPage('investors')}
+                            className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 flex items-center gap-1.5 ${currentPage === 'investors'
+                                ? 'bg-gradient-to-r from-orange-500 to-orange-600 text-white shadow-lg shadow-orange-500/30'
+                                : 'text-gray-300 hover:text-orange-500'
+                                }`}
+                        >
+                            <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M10.5 1.5H5.75A2.75 2.75 0 003 4.25v11.5A2.75 2.75 0 005.75 18.5h8.5A2.75 2.75 0 0017 15.75V6.5m-13-4v4m8-4v4m-8 5h12" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+                                <rect x="3" y="10" width="14" height="1" fill="currentColor" />
+                            </svg>
+                            Incubators
+                        </button>
+
                         <button
                             onClick={() => setCurrentPage('partnerships')}
                             className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 flex items-center gap-1.5 ${currentPage === 'partnerships'
@@ -104,19 +119,19 @@ const Navbar = ({ currentPage, setCurrentPage }) => {
                                         </svg>
                                         Success Stories
                                     </button>
-                                    <a href="#growth-tools" className="flex items-center gap-2 px-4 py-2 text-gray-300 hover:bg-gray-800 hover:text-orange-500 transition-colors">
+                                    <button onClick={() => setCurrentPage('growth-tools')} className="flex items-center gap-2 px-4 py-2 text-gray-300 hover:bg-gray-800 hover:text-orange-500 transition-colors w-full text-left">
                                         <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                                             <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd" />
                                         </svg>
                                         Growth Tools
-                                    </a>
+                                    </button>
                                 </div>
                             )}
                         </div>
                     </div>
 
                     {/* CTA Button */}
-                    <button className="px-4 py-2 bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-lg text-sm font-medium hover:shadow-lg hover:shadow-orange-500/30 transition-all duration-300 flex items-center gap-1.5">
+                    <button onClick={() => setCurrentPage('partnerships')} className="px-4 py-2 bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-lg text-sm font-medium hover:shadow-lg hover:shadow-orange-500/30 transition-all duration-300 flex items-center gap-1.5">
                         <Rocket className="w-3.5 h-3.5" />
                         Launch Your Growth
                     </button>

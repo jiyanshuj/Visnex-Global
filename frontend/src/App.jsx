@@ -5,6 +5,7 @@ import StartupsPage from './components/StartupsPage'
 import InvestorsPage from './components/investors'
 import PartnershipsPage from './components/partnerships'
 import SuccessStoriesPage from './components/success-stories'
+import GrowthTools from './components/growth-Tools'
 import './App.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       {currentPage === 'investors' && <InvestorsPage />}
       {currentPage === 'partnerships' && <PartnershipsPage />}
       {currentPage === 'success-stories' && <SuccessStoriesPage setCurrentPage={setCurrentPage} />}
+      {currentPage === 'growth-tools' && <GrowthTools setCurrentPage={setCurrentPage} />}
     </div>
   )
 }
