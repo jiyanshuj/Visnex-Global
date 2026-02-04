@@ -10,6 +10,7 @@ import './App.css'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
+  const [isInitialized, setIsInitialized] = useState(false);
 
   // Handle URL hash changes
   useEffect(() => {
@@ -21,13 +22,16 @@ function App() {
         setCurrentPage(hash);
       } else {
         // Default to home if no valid hash
-        window.location.hash = '#home';
+        if (!window.location.hash) {
+          window.location.hash = '#home';
+        }
         setCurrentPage('home');
       }
     };
 
     // Set initial page from URL hash on mount
     handleHashChange();
+    setIsInitialized(true);
 
     // Listen for hash changes (back/forward buttons, direct URL navigation)
     window.addEventListener('hashchange', handleHashChange);
@@ -35,10 +39,12 @@ function App() {
     return () => window.removeEventListener('hashchange', handleHashChange);
   }, []);
 
-  // Update URL hash when page changes
+  // Update URL hash when page changes (only after initialization)
   useEffect(() => {
-    window.location.hash = `#${currentPage}`;
-  }, [currentPage]);
+    if (isInitialized && window.location.hash !== `#${currentPage}`) {
+      window.location.hash = `#${currentPage}`;
+    }
+  }, [currentPage, isInitialized]);
 
   return (
     <div className="bg-black min-h-screen">
