@@ -5,7 +5,7 @@ import StartupsPage from './components/StartupsPage'
 import InvestorsPage from './components/investors'
 import PartnershipsPage from './components/partnerships'
 import SuccessStoriesPage from './components/success-stories'
-import GrowthTools from './components/growth-Tools'
+import GrowthTools from './components/growth-Tools.jsx'
 import './App.css'
 
 function App() {
