@@ -2,9 +2,9 @@ import React, { useMemo, useState } from 'react';
 import './ai-assistant.css';
 
 const starterPrompts = [
-  'Mere startup ke liye go-to-market plan banao',
-  'Investor pitch deck ke liye 10 slide outline do',
-  'Meri website copy ko improve karo',
+  'Create a go-to-market plan for my startup',
+  'Give me a 10-slide outline for an investor pitch deck',
+  'Improve my website copy',
 ];
 
 const getReply = (message) => {
@@ -15,14 +15,14 @@ const getReply = (message) => {
   }
 
   if (text.includes('gtm') || text.includes('go-to-market')) {
-    return 'Quick GTM plan: ICP define karo, 2 acquisition channels choose karo, 30-day content + outreach sprint run karo, weekly CAC/LTV track karo.';
+    return 'Quick GTM plan: Define your ICP, choose 2 acquisition channels, run a 30-day content plus outreach sprint, and track CAC/LTV weekly.';
   }
 
   if (text.includes('copy') || text.includes('website')) {
-    return 'Homepage copy formula: Clear headline + value proposition + proof + CTA. Har section me ek primary action rakho.';
+    return 'Homepage copy formula: Clear headline + value proposition + proof + CTA. Keep one primary action in each section.';
   }
 
-  return 'Main help kar sakta hoon: GTM strategy, pitch deck, growth ideas, aur content planning. Aap specific goal likho.';
+  return 'I can help with GTM strategy, pitch decks, growth ideas, and content planning. Share your specific goal.';
 };
 
 const AiAssistantPage = ({ setCurrentPage }) => {
@@ -31,7 +31,7 @@ const AiAssistantPage = ({ setCurrentPage }) => {
     {
       id: 'welcome',
       role: 'assistant',
-      text: 'Namaste, main aapka AI Assistant hoon. Aaj kis goal par kaam karna hai?',
+      text: 'Hi, I am your AI Assistant. What goal would you like to work on today?',
     },
   ]);
 
@@ -60,7 +60,7 @@ const AiAssistantPage = ({ setCurrentPage }) => {
             <div>
               <h1 className="text-2xl md:text-3xl font-bold">AI Assistant</h1>
               <p className="text-sm md:text-base text-gray-300 mt-1">
-                Startup planning, pitch prep, growth strategy aur content support.
+                Startup planning, pitch preparation, growth strategy, and content support.
               </p>
             </div>
             <button

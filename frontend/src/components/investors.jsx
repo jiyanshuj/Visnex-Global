@@ -2,8 +2,8 @@ import React, { useState, useMemo } from 'react';
 import { Search, MapPin, DollarSign, Building2, Users, TrendingUp, Clock, Calendar, Award, Eye, Info, Rocket } from 'lucide-react';
 import investorsData from '../data/investorsData.json';
 
-const InvestorsPage = () => {
-    const [activeTab, setActiveTab] = useState('investors');
+const InvestorsPage = ({ entityType, setEntityType }) => {
+    const activeTab = entityType === 'incubator' ? 'incubators' : 'investors';
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedType, setSelectedType] = useState('all');
     const [selectedInvestmentRange, setSelectedInvestmentRange] = useState('all');
@@ -367,7 +367,7 @@ const InvestorsPage = () => {
                         {/* Tabs */}
                         <div className="flex gap-4 mb-6">
                             <button
-                                onClick={() => setActiveTab('investors')}
+                                onClick={() => setEntityType('investor')}
                                 className={`flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all ${activeTab === 'investors'
                                     ? 'bg-gray-900/50 text-orange-400 shadow-md border-2 border-orange-500/30'
                                     : 'bg-gray-900/30 text-gray-300 hover:bg-gray-900/50 border-2 border-transparent'
@@ -377,7 +377,7 @@ const InvestorsPage = () => {
                                 Investors ({investorsData.investors.length})
                             </button>
                             <button
-                                onClick={() => setActiveTab('incubators')}
+                                onClick={() => setEntityType('incubator')}
                                 className={`flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all ${activeTab === 'incubators'
                                     ? 'bg-gray-900/50 text-orange-400 shadow-md border-2 border-orange-500/30'
                                     : 'bg-gray-900/30 text-gray-300 hover:bg-gray-900/50 border-2 border-transparent'

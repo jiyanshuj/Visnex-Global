@@ -11,6 +11,7 @@ import './App.css';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
+  const [entityType, setEntityType] = useState('investor');
   const [isInitialized, setIsInitialized] = useState(false);
 
   useEffect(() => {
@@ -51,7 +52,12 @@ function App() {
 
   return (
     <div className="bg-black min-h-screen">
-      <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      <Navbar
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+        entityType={entityType}
+        setEntityType={setEntityType}
+      />
 
       <button
         type="button"
@@ -63,7 +69,9 @@ function App() {
 
       {currentPage === 'home' && <HomePage setCurrentPage={setCurrentPage} />}
       {currentPage === 'startups' && <StartupsPage />}
-      {currentPage === 'investors' && <InvestorsPage />}
+      {currentPage === 'investors' && (
+        <InvestorsPage entityType={entityType} setEntityType={setEntityType} />
+      )}
       {currentPage === 'partnerships' && <PartnershipsPage />}
       {currentPage === 'success-stories' && (
         <SuccessStoriesPage setCurrentPage={setCurrentPage} />

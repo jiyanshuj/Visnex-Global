@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Rocket } from 'lucide-react';
 
-const Navbar = ({ currentPage, setCurrentPage }) => {
+const Navbar = ({ currentPage, setCurrentPage, entityType, setEntityType }) => {
     const [isMoreOpen, setIsMoreOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
 
@@ -60,8 +60,11 @@ const Navbar = ({ currentPage, setCurrentPage }) => {
                         </button>
 
                         <button
-                            onClick={() => setCurrentPage('investors')}
-                            className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 flex items-center gap-1.5 ${currentPage === 'investors'
+                            onClick={() => {
+                                setCurrentPage('investors');
+                                setEntityType('investor');
+                            }}
+                            className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 flex items-center gap-1.5 ${currentPage === 'investors' && entityType === 'investor'
                                 ? 'bg-gradient-to-r from-orange-500 to-orange-600 text-white shadow-lg shadow-orange-500/30'
                                 : 'text-gray-300 hover:text-orange-500'
                                 }`}
@@ -74,8 +77,11 @@ const Navbar = ({ currentPage, setCurrentPage }) => {
                         </button>
 
                         <button
-                            onClick={() => setCurrentPage('investors')}
-                            className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 flex items-center gap-1.5 ${currentPage === 'investors'
+                            onClick={() => {
+                                setCurrentPage('investors');
+                                setEntityType('incubator');
+                            }}
+                            className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 flex items-center gap-1.5 ${currentPage === 'investors' && entityType === 'incubator'
                                 ? 'bg-gradient-to-r from-orange-500 to-orange-600 text-white shadow-lg shadow-orange-500/30'
                                 : 'text-gray-300 hover:text-orange-500'
                                 }`}
