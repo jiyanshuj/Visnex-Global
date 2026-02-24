@@ -53,16 +53,12 @@ const AiAssistantPage = ({ setCurrentPage }) => {
   };
 
   return (
-    <div className="ai-page min-h-screen pt-24 pb-8 px-4 md:px-8 text-white">
-      <div className="max-w-5xl mx-auto">
-        <div className="ai-header mb-6 rounded-2xl border border-orange-500/30 p-5 md:p-6">
+    <div className="ai-page box-border h-[100dvh] overflow-hidden px-4 pb-4 pt-20 text-white md:px-8">
+      <div className="mx-auto flex h-full max-w-5xl flex-col">
+        <div className="ai-header mb-4 rounded-2xl border border-orange-500/30 p-5 md:p-6">
           <div className="flex items-center justify-between gap-4">
-            <div>
               <h1 className="text-2xl md:text-3xl font-bold">AI Assistant</h1>
-              <p className="text-sm md:text-base text-gray-300 mt-1">
-                Startup planning, pitch preparation, growth strategy, and content support.
-              </p>
-            </div>
+            
             <button
               type="button"
               onClick={() => setCurrentPage('home')}
@@ -73,8 +69,8 @@ const AiAssistantPage = ({ setCurrentPage }) => {
           </div>
         </div>
 
-        <div className="grid gap-6 lg:grid-cols-[300px_1fr]">
-          <aside className="rounded-2xl border border-gray-800 bg-gray-950 p-4">
+        <div className="grid min-h-0 flex-1 gap-4 grid-rows-[minmax(0,1fr)_auto] lg:gap-6 lg:grid-cols-[300px_1fr] lg:grid-rows-1">
+          <aside className="order-2 rounded-2xl border border-gray-800 bg-gray-950 p-4 max-h-52 overflow-y-auto lg:order-1 lg:max-h-none lg:overflow-visible">
             <h2 className="font-semibold mb-3">Quick Prompts</h2>
             <div className="flex flex-col gap-2">
               {starterPrompts.map((prompt) => (
@@ -90,8 +86,8 @@ const AiAssistantPage = ({ setCurrentPage }) => {
             </div>
           </aside>
 
-          <section className="rounded-2xl border border-gray-800 bg-black/70">
-            <div className="h-[420px] overflow-y-auto p-4 md:p-5 space-y-3">
+          <section className="order-1 flex min-h-0 flex-col rounded-2xl border border-gray-800 bg-black/70 lg:order-2">
+            <div className="min-h-0 flex-1 overflow-y-auto p-4 space-y-3 md:p-5">
               {messages.map((message) => (
                 <div
                   key={message.id}

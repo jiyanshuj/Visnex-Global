@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Navbar from './components/navbar';
 import HomePage from './components/homepage';
 import StartupsPage from './components/StartupsPage';
@@ -59,13 +59,15 @@ function App() {
         setEntityType={setEntityType}
       />
 
-      <button
-        type="button"
-        onClick={() => setCurrentPage('ai-assistant')}
-        className="fixed right-6 top-20 z-[60] rounded-full bg-gradient-to-r from-orange-500 to-orange-600 px-5 py-2 text-sm font-semibold text-white shadow-lg shadow-orange-500/40 transition hover:scale-105"
-      >
-        AI Assistant
-      </button>
+      {currentPage !== 'ai-assistant' && (
+        <button
+          type="button"
+          onClick={() => setCurrentPage('ai-assistant')}
+          className="fixed right-6 bottom-10 z-[60] rounded-full bg-gradient-to-r from-orange-500 to-orange-600 px-5 py-2 text-sm font-semibold text-white shadow-lg shadow-orange-500/40 transition hover:scale-105"
+        >
+          AI Assistant
+        </button>
+      )}
 
       {currentPage === 'home' && <HomePage setCurrentPage={setCurrentPage} />}
       {currentPage === 'startups' && <StartupsPage />}
